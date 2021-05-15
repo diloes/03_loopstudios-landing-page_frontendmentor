@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "Web",
+    "Design"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diloes/03_loopstudios-landing-page_frontendmentor.git"
@@ -20,7 +26,10 @@
   "devDependencies": {
     "dart-sass": "^1.25.0",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
+    "gulp-webp": "^4.0.1",
     "node-sass": "^6.0.0"
   }
 }

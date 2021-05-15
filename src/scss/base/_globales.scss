@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 95%; //para cuando sea menor de 120rem(1200px)  
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.8rem;
+    font-family: $fontAlata;
+    cursor: pointer;
+}
+

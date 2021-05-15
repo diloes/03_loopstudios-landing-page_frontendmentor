@@ -1,0 +1,42 @@
+
+.sectionTwo {
+    margin-top: 20rem;
+}
+
+.sectionTwo__divOne {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTwo__h2 {
+    margin: 0;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: $fontJosefin;
+    font-weight: $fontJosefinW;
+}
+
+.sectionTwo__btn {
+    margin: 0;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-family: $fontJosefin;
+    font-weight: $fontJosefinW;
+    padding: 1rem 2rem;
+    background-color: $blackb;
+    color: $whiteb;
+    border: none;
+    letter-spacing: 0.3rem;
+}
+
+.sectionTwo__galeria {
+    margin: 2rem 0;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5.8rem;
+}
+
+.sectionTwo__img {
+    margin: 0;
+}

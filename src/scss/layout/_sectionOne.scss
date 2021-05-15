@@ -1,0 +1,31 @@
+
+.sectionOne__img {
+    padding-top: 15rem;
+    position: relative;
+    height: 70rem;
+}
+
+.sectionOne__div {
+    position: absolute;
+    max-width: 72vh;
+    background-color: white;
+    padding: 8rem;
+    top: 125rem;
+    right: 25rem;
+}
+
+
+
+.sectionOne__h2 {
+    margin: 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: $fontJosefin;
+    font-weight: $fontJosefinW;
+}
+
+.sectionOne__p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: $dkGray;
+}

@@ -1,0 +1,38 @@
+.header {
+    background-image: url(../img/desktop/image-hero.webp);
+    height: 93vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+
+
+    .header__h1 {
+        margin: 0;
+    }
+
+    h1,li,p {
+        color: $whiteb;
+    }
+}
+
+.header__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 14rem;
+
+    .header__logo {
+        height: 4rem;
+    }
+}
+
+.header__p {
+    font-size: 10rem;
+    font-family: "Josefin Sans", sans-serif;
+    border: white 2px solid;
+    margin-left: 14rem;
+    max-width: 50vw;
+    padding: 4rem;
+    text-transform: uppercase;
+}
