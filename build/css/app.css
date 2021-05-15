@@ -447,7 +447,7 @@ ul {
 
 .sectionTwo__h2 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
@@ -481,7 +481,7 @@ ul {
 footer {
   background-color: black;
   width: 100%;
-  height: 16vh;
+  height: 22vh;
   color: white;
 }
 
@@ -490,4 +490,20 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 36rem;
+}
+
+.footer__divTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 36rem;
+}
+
+.footer__divTwo ul {
+  padding: 0;
+}
+
+.footer__divTwo p {
+  font-size: 1.8rem;
+  font-family: 'Josefin Sans';
 }

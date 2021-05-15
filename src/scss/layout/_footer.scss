@@ -2,7 +2,7 @@
 footer {
     background-color: $blackb;
     width: 100%;
-    height: 16vh;
+    height: 22vh;
     color: $whiteb;
 }
 
@@ -13,3 +13,18 @@ footer {
     padding: 2rem 36rem;
 }
 
+.footer__divTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 36rem;
+
+    ul{
+        padding: 0;
+    }
+}
+
+.footer__divTwo p {
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans';
+}
