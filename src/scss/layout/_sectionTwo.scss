@@ -23,11 +23,18 @@
     font-family: $fontJosefin;
     font-weight: $fontJosefinW;
     padding: 1rem 2rem;
-    background-color: $blackb;
-    color: $whiteb;
-    border: none;
+    background-color: $whiteb;
+    color: $blackb;
+    border: 1px solid black;
     letter-spacing: 0.3rem;
+
+    &:hover {
+        background-color: $blackb;
+        color: $whiteb;
+        border: none;
+    }
 }
+
 
 .sectionTwo__galeria {
     margin: 2rem 0;

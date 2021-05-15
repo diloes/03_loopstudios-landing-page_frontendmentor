@@ -369,6 +369,44 @@ ul {
   font-weight: 400;
 }
 
+.borderLeftRight {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.borderLeftRight::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.borderLeftRight:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.magnifyText {
+  color: #1b202d;
+  transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.magnifyText:hover {
+  transform: scale(1.05);
+  color: #5851ec;
+}
+
+.magnifyText:active {
+  transform: scale(0.9);
+}
+
 .header {
   background-image: url(../img/desktop/image-hero.webp);
   height: 93vh;
@@ -460,10 +498,16 @@ ul {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  letter-spacing: 0.3rem;
+}
+
+.sectionTwo__btn:hover {
   background-color: black;
   color: white;
   border: none;
-  letter-spacing: 0.3rem;
 }
 
 .sectionTwo__galeria {
