@@ -399,7 +399,7 @@ ul {
 }
 
 .magnifyText:hover {
-  transform: scale(1.05);
+  transform: scale(1.25);
   color: #5851ec;
 }
 
