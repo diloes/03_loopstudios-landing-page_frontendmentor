@@ -14,6 +14,15 @@
     h1,li,p {
         color: $whiteb;
     }
+
+    .header__li {
+        margin-right: 2rem;
+
+    }
+    .header__li:last-of-type {
+        margin-right: 0;
+    }
+
 }
 
 .header__flex {
@@ -31,8 +40,46 @@
     font-size: 10rem;
     font-family: "Josefin Sans", sans-serif;
     border: white 2px solid;
+    margin-right: 39rem;
     margin-left: 14rem;
-    max-width: 50vw;
     padding: 4rem;
     text-transform: uppercase;
+}
+
+/** MOBILE **/
+
+@media (max-width: 780px){
+
+    /**HEADER***/
+    .header {
+        background-image: url(/build/img/mobile/image-hero.webp);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .header__flex {
+        padding: 2rem 4rem;
+
+        .header__logo {
+            height: 2.8rem;
+        }
+    }
+
+    .header__div {
+        padding-right: 2rem;
+        padding-top: 19rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header__p {
+        font-size: 4rem;
+        margin-left: 2rem;
+        max-width: 100%;
+        margin-right: 0;
+    }
+   
 }

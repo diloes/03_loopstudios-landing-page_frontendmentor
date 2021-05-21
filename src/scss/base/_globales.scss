@@ -25,5 +25,10 @@ ul {
     cursor: pointer;
 }
 
+@media (max-width: 720px){
+    body{
+        width: 100%;
+    }
+}
 
   
