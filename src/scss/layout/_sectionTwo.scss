@@ -6,6 +6,8 @@
 .sectionTwo__divOne {
     display: flex;
     justify-content: space-between;
+    margin-bottom: -3rem;
+    margin-top: -6rem;
 }
 
 .sectionTwo__h2 {
@@ -14,6 +16,10 @@
     text-transform: uppercase;
     font-family: $fontJosefin;
     font-weight: $fontJosefinW;
+}
+
+.sectionTwo__galeria div{
+    display: grid;
 }
 
 .sectionTwo__btn {
@@ -44,14 +50,30 @@
     gap: 5.8rem;
 }
 
-.sectionTwo__img {
-    margin: 0;
-}
-
 .sectionTwo__p {
     font-size: 4rem;
     font-family: $fontJosefin;
     text-transform: uppercase;
     margin: -12rem 4rem;
     color: white;
+}
+
+@media (max-width: 780px){
+    .sectionTwo {
+        margin-top: 5rem;
+
+        .sectionTwo__divOne {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+
+        .sectionTwo__galeria{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+        
+    }
+    
 }

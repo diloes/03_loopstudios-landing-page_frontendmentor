@@ -560,6 +560,8 @@ ul {
 .sectionTwo__divOne {
   display: flex;
   justify-content: space-between;
+  margin-bottom: -3rem;
+  margin-top: -6rem;
 }
 
 .sectionTwo__h2 {
@@ -568,6 +570,10 @@ ul {
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
+}
+
+.sectionTwo__galeria div {
+  display: grid;
 }
 
 .sectionTwo__btn {
@@ -597,16 +603,28 @@ ul {
   gap: 5.8rem;
 }
 
-.sectionTwo__img {
-  margin: 0;
-}
-
 .sectionTwo__p {
   font-size: 4rem;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   margin: -12rem 4rem;
   color: white;
+}
+
+@media (max-width: 780px) {
+  .sectionTwo {
+    margin-top: 5rem;
+  }
+  .sectionTwo .sectionTwo__divOne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .sectionTwo .sectionTwo__galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
 
 footer {
