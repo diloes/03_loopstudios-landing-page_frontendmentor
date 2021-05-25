@@ -41,6 +41,9 @@
     }
 }
 
+.sectionTwo__btn2 {
+    display: none;
+}
 
 .sectionTwo__galeria {
     margin: 2rem 0;
@@ -75,5 +78,50 @@
         }
         
     }
+
+    .sectionTwo__h2 {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-size: 3.5rem;
+        text-align: center;
+    }
     
+    .sectionTwo__btn{
+        display: none;
+    }
+
+    .sectionTwo__btn2 {
+        display: block;
+        margin: 0 auto;
+        width: 43%;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        font-family: $fontJosefin;
+        font-weight: $fontJosefinW;
+        padding: 1rem 2rem;
+        background-color: $whiteb;
+        color: $blackb;
+        border: 1px solid black;
+        letter-spacing: 0.3rem;
+
+        &:hover {
+            background-color: $blackb;
+            color: $whiteb;
+            border: none;
+        }
+    }
+
+    .sectionTwo__img{
+        display: none;
+    }
+
+    .sectionTwo__img--mobile{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .sectionTwo__p{
+        font-size: 3rem;
+        margin: -7rem auto auto 3rem;
+    }
 }
