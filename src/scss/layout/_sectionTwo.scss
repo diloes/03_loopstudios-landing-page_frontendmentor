@@ -61,6 +61,10 @@
     color: white;
 }
 
+.sectionTwo__img--mobile{
+    display: none;
+}
+
 @media (max-width: 780px){
     .sectionTwo {
         margin-top: 5rem;
@@ -75,8 +79,14 @@
             display: grid;
             grid-template-columns: 1fr;
             justify-content: center;
+            gap: 0;
+            padding-top: 0;
         }
         
+    }
+
+    .sectionTwo__galeria div{
+        margin-top: 2rem;
     }
 
     .sectionTwo__h2 {
@@ -92,7 +102,7 @@
 
     .sectionTwo__btn2 {
         display: block;
-        margin: 0 auto;
+        margin: 2rem auto 0 auto;
         width: 43%;
         font-size: 1.7rem;
         text-transform: uppercase;
@@ -103,6 +113,7 @@
         color: $blackb;
         border: 1px solid black;
         letter-spacing: 0.3rem;
+
 
         &:hover {
             background-color: $blackb;
@@ -116,8 +127,10 @@
     }
 
     .sectionTwo__img--mobile{
+        display: block;
         max-width: 95%;
         margin: 0 auto;
+
     }
 
     .sectionTwo__p{
