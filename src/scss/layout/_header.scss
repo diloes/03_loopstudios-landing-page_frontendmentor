@@ -47,6 +47,10 @@
     max-width: 77rem;
 }
 
+.header__hamburguer {
+    display: none;
+}
+
 /** MOBILE **/
 
 @media (max-width: 780px){
@@ -81,6 +85,10 @@
         margin-left: 2rem;
         max-width: 100%;
         margin-right: 0;
+    }
+
+    .header__hamburguer {
+        display: block;
     }
    
 }
