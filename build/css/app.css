@@ -756,3 +756,36 @@ footer {
     display: flex;
   }
 }
+
+.nav__hamburguer {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .nav__hamburguer {
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+  }
+  .nav__hamburguer--flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+  }
+  nav {
+    display: block;
+  }
+  .nav__ul {
+    display: grid;
+    margin-top: 15rem;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+  }
+  .header__li--hamb {
+    color: white;
+    font-size: 3rem;
+  }
+}
