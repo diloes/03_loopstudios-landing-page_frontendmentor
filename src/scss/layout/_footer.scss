@@ -16,8 +16,7 @@ footer {
 .footer__divTwo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0rem 36rem;
+    justify-content: space-evenly;
 
     ul{
         padding: 0;
@@ -27,6 +26,10 @@ footer {
 .footer__divTwo p {
     font-size: 1.8rem;
     font-family: 'Josefin Sans';
+}
+
+.footer__rrss--yes {
+    display: none;
 }
 
 /*MOBILE*/

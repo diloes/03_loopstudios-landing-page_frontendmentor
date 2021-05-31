@@ -706,8 +706,7 @@ footer {
 .footer__divTwo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0rem 36rem;
+  justify-content: space-evenly;
 }
 
 .footer__divTwo ul {
@@ -717,6 +716,10 @@ footer {
 .footer__divTwo p {
   font-size: 1.8rem;
   font-family: 'Josefin Sans';
+}
+
+.footer__rrss--yes {
+  display: none;
 }
 
 /*MOBILE*/
@@ -761,6 +764,14 @@ footer {
   display: none;
 }
 
+.logo__cerrar {
+  height: 3rem;
+}
+
+.nav__js {
+  display: none;
+}
+
 @media (max-width: 780px) {
   .nav__hamburguer {
     display: block;
@@ -787,5 +798,8 @@ footer {
   .header__li--hamb {
     color: white;
     font-size: 3rem;
+  }
+  .nav__desktop {
+    display: none;
   }
 }

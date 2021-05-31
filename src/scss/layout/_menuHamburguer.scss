@@ -2,6 +2,15 @@
     display: none;
 }
 
+.logo__cerrar {
+    height: 3rem;
+}
+
+.nav__js {
+    display: none;
+}
+
+
 @media (max-width: 780px) {
     .nav__hamburguer{
         display: block;
@@ -31,5 +40,9 @@
     .header__li--hamb{
         color: $whiteb;
         font-size: 3rem;
+    }
+
+    .nav__desktop{
+        display: none;
     }
 }
