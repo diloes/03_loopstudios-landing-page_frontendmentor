@@ -623,7 +623,7 @@ ul {
 @media (max-width: 780px) {
   .sectionTwo {
     margin-top: 5rem;
-    margin-left: 3rem;
+    margin-bottom: 8rem;
   }
   .sectionTwo .sectionTwo__divOne {
     display: grid;
@@ -651,7 +651,7 @@ ul {
   }
   .sectionTwo__btn2 {
     display: block;
-    margin: 2rem auto 0 auto;
+    margin: 4rem auto 0 auto;
     width: 43%;
     font-size: 1.7rem;
     text-transform: uppercase;
@@ -710,4 +710,42 @@ footer {
 .footer__divTwo p {
   font-size: 1.8rem;
   font-family: 'Josefin Sans';
+}
+
+/*MOBILE*/
+@media (max-width: 780px) {
+  footer {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .footer__nav {
+    display: block;
+  }
+  .footer__divOne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  .footer__divTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer__divTwo ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__rrss {
+    display: none;
+  }
+  .footer__rrss--yes ul {
+    display: flex;
+  }
 }
