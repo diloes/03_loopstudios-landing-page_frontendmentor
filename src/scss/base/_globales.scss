@@ -1,7 +1,8 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-}
+    overflow-x: hidden; //con esto solucionamos el que se desplace toda la web hacia la derecha 
+}                       //y quede un espacio en blanco en version mobile
 
 *, *:before, *:after {
     box-sizing: inherit;
