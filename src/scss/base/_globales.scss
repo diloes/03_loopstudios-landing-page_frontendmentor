@@ -29,7 +29,9 @@ ul {
 @media (max-width: 720px){
     body{
         width: 100%;
-    }
+        overflow-x: hidden; //con esto solucionamos el que se desplace toda la web hacia la derecha 
+    }                       //y quede un espacio en blanco en version mobile
+    
 }
 
   

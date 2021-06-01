@@ -368,6 +368,7 @@ ul {
 @media (max-width: 720px) {
   body {
     width: 100%;
+    overflow-x: hidden;
   }
 }
 
