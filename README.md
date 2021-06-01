@@ -1,4 +1,4 @@
-Visit the web -> vrdiloes.netlify.app
+Visit the web -> diloesvr.netlify.app
 
 # Frontend Mentor - Loopstudios landing page
 
